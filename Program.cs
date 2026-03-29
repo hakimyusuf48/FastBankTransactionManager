@@ -17,7 +17,6 @@ namespace FastBankTransactionManager
     {
         List<Transaction> transaction = new List<Transaction>();
 
-        
         public void AddTransaction() 
         {
             //User information
@@ -35,13 +34,13 @@ namespace FastBankTransactionManager
             {
                 case "deposit": 
                     transaction.Add(new Transaction { TransactionID = transaction.Count + 1, Type = transactionType, Amount = amount, AccountNumber = accountNumber });
-                    Console.WriteLine("Transaction Added. transaction ID: " + transaction.Count);
+                    Console.WriteLine("Transaction Added. Transaction ID: " + transaction.Count);
                     break;
                 case "withdrawal":
                     if (balance >= amount)
                     {
                         transaction.Add(new Transaction { TransactionID = transaction.Count + 1, Type = transactionType, Amount = -amount, AccountNumber = accountNumber });
-                        Console.WriteLine("Transaction Added. transaction ID: " + transaction.Count);
+                        Console.WriteLine("Transaction Added. Transaction ID: " + transaction.Count);
                         Console.WriteLine("Transaction Added.");
                     }
                     else
@@ -55,7 +54,7 @@ namespace FastBankTransactionManager
                     transaction.Add(new Transaction { TransactionID = transaction.Count + 1, Type = "transfer-out", Amount = -amount, AccountNumber = accountNumber });
                     transaction.Add(new Transaction { TransactionID = transaction.Count + 1, Type = "transfer-in", Amount = amount, AccountNumber = receiverAccount });
                     Console.WriteLine($"Transfer of {amount} from Account {accountNumber} to Account {receiverAccount} completed.");
-                    Console.WriteLine("Transaction Added. transaction ID: " + transaction.Count);
+                    Console.WriteLine("Transaction Added. Transaction ID: " + transaction.Count);
                     break;
                 default:
                     Console.WriteLine("Invalid Transaction Type.");
@@ -110,30 +109,8 @@ namespace FastBankTransactionManager
         }
         public async Task ProcessConcurrentTransactions()
         {
-            Console.WriteLine("Enter Account Number: ");
-            int accountNumber = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Enter Amount to Withdraw: ");
-            double amount = Convert.ToDouble(Console.ReadLine());
-
-            await Task.Delay(100); // simulating DB call
-
-            Transaction found = null;
-            foreach (Transaction t in transaction)
-            {
-                if (t.AccountNumber == accountNumber)
-                {
-                    found = t;
-                    break;
-                }
-            }
-
-            if (found == null)
-            {
-                Console.WriteLine("Account Not Found.");
-                return;
-            }
-
-            
+            await Task.Delay(100); // simulate DB call
+            AddTransaction();
         }
         public void DisplayTransactionSummary()
         {
