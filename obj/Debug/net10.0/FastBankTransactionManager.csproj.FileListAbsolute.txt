@@ -1,0 +1,4 @@
+C:\Users\Kim\Desktop\Csharp_Projects\FastBankTransactionManager\obj\Debug\net10.0\FastBankTransactionManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kim\Desktop\Csharp_Projects\FastBankTransactionManager\obj\Debug\net10.0\FastBankTransactionManager.AssemblyInfoInputs.cache
+C:\Users\Kim\Desktop\Csharp_Projects\FastBankTransactionManager\obj\Debug\net10.0\FastBankTransactionManager.AssemblyInfo.cs
+C:\Users\Kim\Desktop\Csharp_Projects\FastBankTransactionManager\obj\Debug\net10.0\FastBankTransactionManager.csproj.CoreCompileInputs.cache

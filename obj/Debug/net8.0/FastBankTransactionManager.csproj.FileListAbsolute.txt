@@ -1,0 +1,14 @@
+C:\Users\Kim\Desktop\Csharp\Csharp_Basic\FastBankTransactionManager\obj\Debug\net8.0\FastBankTransactionManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kim\Desktop\Csharp\Csharp_Basic\FastBankTransactionManager\obj\Debug\net8.0\FastBankTransactionManager.AssemblyInfoInputs.cache
+C:\Users\Kim\Desktop\Csharp\Csharp_Basic\FastBankTransactionManager\obj\Debug\net8.0\FastBankTransactionManager.AssemblyInfo.cs
+C:\Users\Kim\Desktop\Csharp\Csharp_Basic\FastBankTransactionManager\obj\Debug\net8.0\FastBankTransactionManager.csproj.CoreCompileInputs.cache
+C:\Users\Kim\Desktop\Csharp\Csharp_Basic\FastBankTransactionManager\bin\Debug\net8.0\FastBankTransactionManager.exe
+C:\Users\Kim\Desktop\Csharp\Csharp_Basic\FastBankTransactionManager\bin\Debug\net8.0\FastBankTransactionManager.deps.json
+C:\Users\Kim\Desktop\Csharp\Csharp_Basic\FastBankTransactionManager\bin\Debug\net8.0\FastBankTransactionManager.runtimeconfig.json
+C:\Users\Kim\Desktop\Csharp\Csharp_Basic\FastBankTransactionManager\bin\Debug\net8.0\FastBankTransactionManager.dll
+C:\Users\Kim\Desktop\Csharp\Csharp_Basic\FastBankTransactionManager\bin\Debug\net8.0\FastBankTransactionManager.pdb
+C:\Users\Kim\Desktop\Csharp\Csharp_Basic\FastBankTransactionManager\obj\Debug\net8.0\FastBankTransactionManager.dll
+C:\Users\Kim\Desktop\Csharp\Csharp_Basic\FastBankTransactionManager\obj\Debug\net8.0\refint\FastBankTransactionManager.dll
+C:\Users\Kim\Desktop\Csharp\Csharp_Basic\FastBankTransactionManager\obj\Debug\net8.0\FastBankTransactionManager.pdb
+C:\Users\Kim\Desktop\Csharp\Csharp_Basic\FastBankTransactionManager\obj\Debug\net8.0\FastBankTransactionManager.genruntimeconfig.cache
+C:\Users\Kim\Desktop\Csharp\Csharp_Basic\FastBankTransactionManager\obj\Debug\net8.0\ref\FastBankTransactionManager.dll
